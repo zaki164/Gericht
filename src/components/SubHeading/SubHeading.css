@@ -1,0 +1,10 @@
+.sub_heading p {
+  color: var(--color-white);
+  font-size: 18px;
+  margin: 0;
+}
+.sub_heading img {
+  width: 25px;
+  height: auto;
+  margin-top: -15px;
+}/*# sourceMappingURL=SubHeading.css.map */

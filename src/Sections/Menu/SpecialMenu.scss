@@ -1,0 +1,26 @@
+@import '../../mixins';
+.Special_Menu {
+  background-color: var(--color-black);
+  h2 {
+    color: var(--color-golden);
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    @include media('md') {
+      margin-bottom: 20px;
+    }
+  }
+  .Special_Menu_type {
+    h3 {
+      @include media('md') {
+        font-size: 27px;
+        margin-top: 30px;
+      }
+    }
+  }
+  .Special_Menu_image {
+    img {
+        max-width: 270px;
+    }
+  }
+}

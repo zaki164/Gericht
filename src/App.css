@@ -1,0 +1,41 @@
+.section_padding {
+  padding: 80px 0;
+}
+
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app_bg {
+  background: url('./assets/bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.custom_button {
+  background-color: var(--color-golden);
+  color: var(--color-black);
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  padding: 13px 19px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: var(--main-transition);
+}
+.custom_button:hover {
+  background-color: rgb(220 202 135 / 70%);
+}
+.info_text {
+  color: var(--color-grey);
+  margin-bottom: 25px;
+  line-height: 1.7;
+  font-family: var(--font-alt);
+  text-transform: capitalize;
+}

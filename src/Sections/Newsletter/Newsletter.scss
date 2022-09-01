@@ -1,0 +1,68 @@
+@import '../../mixins';
+.news {
+  position: relative;
+  padding-bottom: 30px;
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    left: 0;
+    top: 0;
+    background-color: var(--color-black);
+  }
+  .newssubs {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    border: 1px solid rgb(220 202 135 / 25%);
+    box-shadow: 1px 0 7px 3px var(--color-golden);
+    border-top: none;
+    padding: 20px 40px 45px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--color-black);
+    @include media(xs) {
+      width: 85%;
+    }
+    h2 {
+      color: var(--color-golden);
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    form {
+      width: 70%;
+      margin: auto;
+      display: flex;
+      @include media(xs) {
+        width: 100%;
+      }
+      @include media(md) {
+        flex-direction: column;
+        gap: 20px;
+      }
+      input {
+        padding: 15px 30px;
+        background: none;
+        outline: none;
+        border: 1px solid rgb(220 202 135 / 25%);
+        margin-right: 15px;
+        flex: 1;
+        caret-color: var(--color-golden);
+        color: var(--color-golden);
+        transition: var(--main-transition);
+        &:focus {
+          box-shadow: 1px 0 7px 0 var(--color-golden);
+        }
+      }
+      button {
+        @include media(md) {
+          width: fit-content;
+          margin: auto;
+        }
+      }
+    }
+  }
+}

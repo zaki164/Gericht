@@ -1,0 +1,82 @@
+header {
+  background-color: var(--color-black);
+  position: relative;
+  z-index: 20;
+}
+header .header_content {
+  height: 80px;
+}
+header .header_content a {
+  color: var(--color-white);
+  transition: var(--main-transition);
+  font-size: 19px;
+}
+header .header_content a:hover {
+  color: var(--color-golden);
+}
+header .header_content a.active {
+  color: var(--color-golden);
+}
+header .header_content img {
+  width: 120px;
+  height: auto;
+}
+header .header_content nav a {
+  padding: 15px;
+}
+@media (max-width: 767px) {
+  header .header_content nav, header .header_content .log {
+    display: none;
+  }
+}
+header .header_content svg {
+  display: none;
+  color: var(--color-white);
+  font-size: 27px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  header .header_content svg {
+    display: block;
+  }
+}
+header .header_content .nav_fill {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color-black);
+  z-index: 5;
+  top: -100%;
+  left: 0;
+  transition: 0.5s;
+}
+header .header_content .nav_fill.show {
+  top: 0;
+}
+@media (min-width: 768px) {
+  header .header_content .nav_fill {
+    display: none;
+  }
+}
+header .header_content .nav_fill svg {
+  font-size: 27px;
+  color: var(--color-golden);
+  position: absolute;
+  right: 15%;
+  top: 5%;
+}
+header .header_content .nav_fill ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header .header_content .nav_fill ul li {
+  padding: 19px;
+}
+header .header_content .nav_fill ul li a {
+  color: var(--color-golden);
+}
+header .header_content .nav_fill ul li a:hover {
+  color: var(--color-gray);
+}/*# sourceMappingURL=Navbar.css.map */

@@ -1,0 +1,35 @@
+.footer {
+  h2 {
+    color: var(--color-golden);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    }
+  h3 {
+    color: var(--color-golden);
+    margin-bottom: 20px;
+  }
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    svg {
+      cursor: pointer;
+      font-size: 22px;
+      color: var(--color-golden);
+      transition: var(--main-transition);
+      &.face:hover {
+        color: #1877f2;
+      }
+      &.twit:hover {
+        color: #1da1f2;
+      }
+      &.ins:hover {
+        color: #f77737;
+      }
+    }
+  }
+} 

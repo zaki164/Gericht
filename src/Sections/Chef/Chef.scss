@@ -1,0 +1,37 @@
+.chef {
+  .chef_image {
+    img {
+      width: 400px;
+      height: auto;
+    }
+  }
+  .chef_text {
+    h2 {
+      color: var(--color-golden);
+      letter-spacing: 2px;
+      font-weight: 600;
+    }
+    .info_text {
+      img {
+        width: 50px;
+      }
+      p {
+        display: inline;
+        line-height: 2.1;
+      }
+    }
+    .chef_name {
+      color: var(--color-golden);
+      font-size: 25px;
+    }
+    .chef_name_founder {
+      color: var(--color-grey);
+      font-family: var(--font-alt);
+      margin-bottom: 50px;
+    }
+    .chef_sign {
+      width: 150px;
+      height: auto;
+    }
+  }
+}

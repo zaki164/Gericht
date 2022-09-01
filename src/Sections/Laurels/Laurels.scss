@@ -1,0 +1,62 @@
+@import '../../mixins';
+.laurels {
+  position: relative;
+  .logo {
+    position: absolute;
+    width: 90px;
+    height: auto;
+    top: 10px;
+    left: 10px;
+    @media (min-width: 768px) and (max-width: 991px) {
+      width: 60px;
+    }
+  }
+  .laurels_awards {
+    h2 {
+      color: var(--color-golden);
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .laurels_awards_content {
+      .laurels_award {
+        padding: 15px;
+        margin-bottom: 15px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        img {
+          width: 80px;
+          height: 80px;
+          margin-right: 13px;
+        }
+        .laurels_awards_text {
+          height: 80px;
+          h3 {
+            color: var(--color-golden);
+            margin-bottom: 0;
+            font-weight: bold;
+            font-size: 21px;
+            @media (min-width: 768px) and (max-width: 991px) {
+              font-size: 19px;
+            }
+          }
+          p {
+            color: var(--color-white);
+            margin-bottom: 0;
+            font-family: var(--font-alt);
+            font-size: 13px;
+            @media (min-width: 768px) and (max-width: 991px) {
+              font-size: 11px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .laurels_images {
+    @include media(sm) {
+      display: none;
+    }
+  }
+}
