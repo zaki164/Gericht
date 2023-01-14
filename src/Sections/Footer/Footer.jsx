@@ -1,7 +1,7 @@
 import { SubHeading } from '../../components';
 import { Row, Container, Col } from 'react-bootstrap';
 
-import './Footer.css';
+import './Footer.scss';
 
 const Footer = () => (
   <footer className='footer app_bg section_padding text-center'>
