@@ -2,14 +2,10 @@ import React, { Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { CompLoader } from '../components';
 
-const Courses = React.lazy(() => import("../pages/Courses/Courses"));
-const Dashboard = React.lazy(() => import("../pages/Dashboard/Dashboard"));
-const Files = React.lazy(() => import("../pages/Files/Files"));
-const Friends = React.lazy(() => import("../pages/Friends/Friends"));
-const Plans = React.lazy(() => import("../pages/Plans/Plans"));
-const Profile = React.lazy(() => import("../pages/Profile/Profile"));
-const Projects = React.lazy(() => import("../pages/Projects/Projects"));
-const Settings = React.lazy(() => import("../pages/Settings/Settings"));
+const Home = React.lazy(() => import("../pages/Home/Home"));
+const Contact = React.lazy(() => import("../pages/Contact/Contact"));
+const About = React.lazy(() => import("../pages/About/About"));
+const Log = React.lazy(() => import("../pages/Log/Log"));
 
 const Router = () => {
   return (
