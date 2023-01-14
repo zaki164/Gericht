@@ -1,7 +1,6 @@
 import { SubHeading } from '../../components';
 import { images, data } from '../../constants';
 import { Row, Container, Col } from 'react-bootstrap';
-
 import './Laurels.scss';
 
 const Laurels = () => (
@@ -9,7 +8,7 @@ const Laurels = () => (
     <img src={images.logo} alt="logo" className='logo'/>
     <Container>
       <Row>
-        <Col xs={12} md={7} className="d-flex align-items-center">
+        <Col xs={12} md={7} className="d-md-flex align-items-md-center">
           <div className="laurels_awards">
             <SubHeading title='Awards & Recognition' />
             <h2>Our Laurels</h2>
