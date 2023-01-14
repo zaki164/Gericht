@@ -1,5 +1,5 @@
 import { images } from '../../constants';
-import './SubHeading.css'
+import './SubHeading.scss'
 
 
 const SubHeading = ({title}) => (
