@@ -1,7 +1,7 @@
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
 
-import './Landing.css';
+import './Landing.scss';
 
 const Landing = () => (
   <section className='landing section_padding w-100'>
