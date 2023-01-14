@@ -1,4 +1,4 @@
-import './AboutUs.css';
+import './AboutUs.scss';
 import { Container, Row, Col } from 'react-bootstrap';
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
