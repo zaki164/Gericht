@@ -1,5 +1,4 @@
-
-import './Chef.css';
+import './Chef.scss';
 import { Container, Row, Col } from 'react-bootstrap';
 import { images } from '../../constants';
 import { SubHeading } from '../../components';
