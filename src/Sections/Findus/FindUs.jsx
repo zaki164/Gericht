@@ -2,7 +2,7 @@ import { images } from '../../constants';
 import { SubHeading } from '../../components';
 import { Row, Container, Col } from 'react-bootstrap';
 
-import './FindUs.css';
+import './FindUs.scss';
 const FindUs = () => (
   <section className="findus app_bg section_padding text-center text-md-start">
     <Container>
