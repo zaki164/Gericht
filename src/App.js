@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './sass/App.scss';
-import { Navbar, Home, Contact, About, Log } from './components';
+import { Navbar } from './components';
+import { Home, Contact, About, Log } from './pages';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => (
