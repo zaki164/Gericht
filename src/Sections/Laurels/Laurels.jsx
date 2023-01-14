@@ -2,7 +2,7 @@ import { SubHeading } from '../../components';
 import { images, data } from '../../constants';
 import { Row, Container, Col } from 'react-bootstrap';
 
-import './Laurels.css';
+import './Laurels.scss';
 
 const Laurels = () => (
   <section className='laurels app_bg section_padding text-center text-md-start'>
