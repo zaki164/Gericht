@@ -3,7 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import { images } from '../../constants';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import { NavLink } from 'react-router-dom';
-import './Navbar.css';
+import './Navbar.scss';
 import { useEffect, useRef, useState } from 'react';
 
 const Navbar = () => {
