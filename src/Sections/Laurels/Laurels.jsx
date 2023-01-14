@@ -11,7 +11,7 @@ const Laurels = () => (
       <Row>
         <Col xs={12} md={7} className="d-flex align-items-center">
           <div className="laurels_awards">
-            <SubHeading title={'Awards & Recognition'} />
+            <SubHeading title='Awards & Recognition' />
             <h2>Our Laurels</h2>
             <div className="laurels_awards_content d-flex flex-wrap">
               {data.awards.map((award, index) => (

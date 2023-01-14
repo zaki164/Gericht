@@ -1,4 +1,3 @@
-// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './sass/App.scss';
 import { Navbar, Home, Contact, About, Log } from './components';
