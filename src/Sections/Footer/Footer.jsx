@@ -1,6 +1,5 @@
 import { SubHeading } from '../../components';
 import { Row, Container, Col } from 'react-bootstrap';
-
 import './Footer.scss';
 
 const Footer = () => (
@@ -15,7 +14,7 @@ const Footer = () => (
         </Col>
         <Col xs={{span: 12, order: 'first'}} sm={12} md={{span: 4, order: 0}} className="p-3 mb-4 mb-md-0">
           <h2>Gerícht</h2>
-          <SubHeading title={'"The best way to find yourself is to lose yourself in the service of others.”'} />
+          <SubHeading title='"The best way to find yourself is to lose yourself in the service of others.”' />
           <div className="social">
             <i className="fa-brands fa-facebook-f face"></i>
             <i className="fa-brands fa-twitter twit"></i>

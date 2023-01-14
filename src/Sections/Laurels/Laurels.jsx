@@ -7,7 +7,7 @@ import './Laurels.scss';
 const Laurels = () => (
   <section className='laurels app_bg section_padding text-center text-md-start'>
     <img src={images.logo} alt="logo" className='logo'/>
-    <Container className=''>
+    <Container>
       <Row>
         <Col xs={12} md={7} className="d-flex align-items-center">
           <div className="laurels_awards">

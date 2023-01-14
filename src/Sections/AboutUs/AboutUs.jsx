@@ -2,6 +2,7 @@ import './AboutUs.scss';
 import { Container, Row, Col } from 'react-bootstrap';
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
+
 const AboutUs = () => (
   <section className='about_section section_padding app_bg'>
     <Container>
@@ -20,7 +21,7 @@ const AboutUs = () => (
         </Col>
         <Col xs={12} md={5}>
           <div className="history p-3">
-            <SubHeading title={"Our History"} />
+            <SubHeading title="Our History" />
             <p className='info_text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium non nostrum amet, repellendus ipsam voluptates commodi quaerat dolor in.</p>
             <button className='custom_button'>Know More</button>
           </div>

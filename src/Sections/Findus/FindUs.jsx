@@ -1,15 +1,15 @@
 import { images } from '../../constants';
 import { SubHeading } from '../../components';
 import { Row, Container, Col } from 'react-bootstrap';
-
 import './FindUs.scss';
+
 const FindUs = () => (
   <section className="findus app_bg section_padding text-center text-md-start">
     <Container>
       <Row>
         <Col xs={12} md={6} className="p-3 d-flex align-items-center">
           <div className="findus_text">
-            <SubHeading title={'Contact'} />
+            <SubHeading title='Contact' />
             <h2>Find Us</h2>
             <p className='info_text'>Lane Ends Bungalow, Whatcroft Hall Lane, Rudheath, CW9 7SG</p>
             <h3>Openeing Hours</h3>

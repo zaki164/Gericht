@@ -1,16 +1,14 @@
 import { MenuItem, SubHeading } from '../../components';
 import { Container, Row, Col } from 'react-bootstrap';
-import { data } from '../../constants';
-
+import { data, images } from '../../constants';
 import './SpecialMenu.scss';
-import { images } from '../../constants';
 
 const SpecialMenu = () => {
 
   return (
     <section className='Special_Menu section_padding text-center'>
       <div className='Special_Menu_heading'>
-        <SubHeading title={"Menu that fits you palatte"} />
+        <SubHeading title="Menu that fits you palatte" />
         <h2>Today's Special</h2>
       </div>
       <Container>

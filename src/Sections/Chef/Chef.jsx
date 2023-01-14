@@ -14,7 +14,7 @@ const Chef = () => (
         </Col>
         <Col xs={12} md={6} className="p-3">
         <div className='chef_text text-center text-md-start mt-4 mt-md-0'>
-          <SubHeading title={"Chef's Word"} />
+          <SubHeading title="Chef's Word" />
           <h2>What We Beleive In</h2>
           <div className='info_text'><img src={images.quote} alt="quote img" /> <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium non nostrum amet, repellendus ipsam voluptates commodi quaerat dolor in. Officia hic sunt, nisi unde dolorem deserunt porro odit numquam odio.</p></div>
           <h3 className='chef_name'>Kevin Leo</h3>

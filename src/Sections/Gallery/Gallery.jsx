@@ -2,8 +2,9 @@ import { SubHeading } from '../../components';
 import { images } from '../../constants';
 import { Row, Container, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './Gallery.scss';
 import { useRef } from 'react';
+import './Gallery.scss';
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const galleryimages = [images.gallery01, images.gallery02, images.gallery04, images.chef, images.findus, images.welcome, images.laurels];
 
@@ -26,7 +27,7 @@ const Gallery = () => {
         <Row>
           <Col xs={12} lg={4} className="p-3">
             <div className="gallery_text">
-              <SubHeading title={'Instagram'} />
+              <SubHeading title='Instagram' />
               <h2>Photo Gallery</h2>
               <p className='info_text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium non nostrum amet.</p>
               <button className='custom_button'>View More</button>
@@ -40,10 +41,10 @@ const Gallery = () => {
                 </div>
               ))}
               <div className="scroll_button_right" onClick={() => scroll('right')} >
-                <FontAwesomeIcon icon="fa-solid fa-arrow-right" />
+                <FontAwesomeIcon icon={faArrowRight} />
               </div>
               <div className="scroll_button_left">
-                <FontAwesomeIcon icon="fa-solid fa-arrow-left" onClick={() => scroll('left')} />
+                <FontAwesomeIcon icon={faArrowLeft} onClick={() => scroll('left')} />
               </div>
             </div>
           </Col>

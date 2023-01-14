@@ -5,6 +5,7 @@ import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import { NavLink } from 'react-router-dom';
 import './Navbar.scss';
 import { useEffect, useRef, useState } from 'react';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   const [toggle, settoggle] = useState(false);
@@ -24,7 +25,7 @@ const Navbar = () => {
               <NavLink exact="true" to="/about" >About</NavLink>
             </nav> 
             <NavLink exact="true" to="/login" className='log' >Log In</NavLink>
-            <FontAwesomeIcon icon="fa-solid fa-bars" onClick={() => settoggle(true)} />
+            <FontAwesomeIcon icon={faBars} onClick={() => settoggle(true)} />
             <div className="nav_fill" ref={ref}>
               <MdOutlineRestaurantMenu onClick={() => settoggle(false)} />
               <ul className='flex-column'>
