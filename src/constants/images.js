@@ -20,7 +20,7 @@ import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 import meal from '../assets/meal.mp4';
 
-export default {
+const images = {
   bg,
   chef,
   G,
@@ -43,3 +43,5 @@ export default {
   gericht,
   meal,
 };
+
+export default images
