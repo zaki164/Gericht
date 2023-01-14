@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import { images } from '../../constants';
 import { BsFillPlayFill, BsPause } from 'react-icons/bs';
 
-import './Intro.css';
+import './Intro.scss';
 
 const Intro = () => {
   const [play, setplay] = useState(true);
