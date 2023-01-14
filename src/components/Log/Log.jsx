@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import './Log.css';
+import './Log.scss';
 
 const Log = () => {
   const reflog = useRef()

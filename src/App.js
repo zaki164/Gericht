@@ -1,5 +1,5 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './sass/App.scss';
 import { Navbar, Home, Contact, About, Log } from './components';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
