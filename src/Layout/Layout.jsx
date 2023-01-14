@@ -1,5 +1,5 @@
 import Router from "../Router/Router";
-import { Navbar } from './components';
+import { Navbar } from '../components';
 
 const Layout = () => {
   return (
