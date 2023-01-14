@@ -1,5 +1,4 @@
-
-import './MenuItem.css';
+import './MenuItem.scss';
 
 const MenuItem = ({title, price, tags}) => (
     <div className='Special_Menu_item d-flex justify-content-center mb-3'>
