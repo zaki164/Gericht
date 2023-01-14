@@ -2,7 +2,7 @@ import { MenuItem, SubHeading } from '../../components';
 import { Container, Row, Col } from 'react-bootstrap';
 import { data } from '../../constants';
 
-import './SpecialMenu.css';
+import './SpecialMenu.scss';
 import { images } from '../../constants';
 
 const SpecialMenu = () => {
