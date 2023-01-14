@@ -1,6 +1,6 @@
 import { SubHeading } from '../../components';
 
-import './Newsletter.css';
+import './Newsletter.scss';
 
 const Newsletter = () => (
   <section className='news app_bg'>
