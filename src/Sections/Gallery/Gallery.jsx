@@ -2,7 +2,7 @@ import { SubHeading } from '../../components';
 import { images } from '../../constants';
 import { Row, Container, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './Gallery.css';
+import './Gallery.scss';
 import { useRef } from 'react';
 
 const galleryimages = [images.gallery01, images.gallery02, images.gallery04, images.chef, images.findus, images.welcome, images.laurels];
