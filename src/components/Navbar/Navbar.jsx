@@ -18,7 +18,7 @@ const Navbar = () => {
       <Container>
         <Row>
           <div className='header_content d-flex align-items-center justify-content-between'>
-            <NavLink exact="true" to='/'><img src={images.gericht} alt='App_logo'></img></NavLink>
+            <NavLink exact="true" to='/'><img src={images.gericht} alt='App_logo' /></NavLink>
             <nav className='px-2'>
               <NavLink exact="true" to="/">Home</NavLink>
               <NavLink exact="true" to="/contact" >Contact Us</NavLink>
