@@ -1,8 +1,8 @@
-![Gericht](https://github.com/zaki164/Gericht/assets/92805900/9604210a-b7c5-4bfb-9b5b-0d2f57751cff)
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+![Gericht](https://github.com/zaki164/Gericht/assets/92805900/9604210a-b7c5-4bfb-9b5b-0d2f57751cff)
 
 ## Available Scripts
 
